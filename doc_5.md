@@ -4,7 +4,7 @@
 The program represents an undirected graph using an adjacency matrix. The adjacency matrix is a two-dimensional array where each element indicates whether an edge exists between two vertices. If there is an edge between vertex u and vertex v, the matrix entry at position u and v is set to 1. Since the graph is undirected, the matrix is symmetric and both adj[u][v] and adj[v][u] are set to 1. A visited array is used to keep track of the vertices that have already been visited during traversal.
 
 
-##Description of the functions implemented and their purpose
+## Description of the functions implemented and their purpose
 -The createGraph function initializes the adjacency matrix and accepts user input for the number of vertices and edges. It fills the matrix by marking connections between vertices for each edge entered.
 
 -The BFS function performs Breadth First Search traversal starting from a given vertex. It uses a queue to visit vertices level by level and marks each visited vertex to avoid repeated visits.
