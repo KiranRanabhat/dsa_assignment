@@ -1,4 +1,4 @@
-#Reverse Transversal
+# Reverse Transversal
 
 ## Explanation of how the data structures are defined
 The program uses a singly linked list data structure. Each node is defined using a structure that contains an integer data and a pointer next to the next node in the list. 
